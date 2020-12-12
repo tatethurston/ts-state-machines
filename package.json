@@ -7,9 +7,9 @@
   "version": "1.0.0",
   "main": "dist",
   "files": [
-    "dist/**/*"
+    "dist/index.d.ts",
+    "dist/index.js"
   ],
-  "types": "dist",
   "scripts": {
     "build": "yarn clean && yarn tsc",
     "build:watch": "yarn build --watch",
@@ -24,6 +24,7 @@
     "version": "yarn run build && git add -A package.json",
     "postversion": "git push && git push --tags"
   },
+  "types": "dist",
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^13.13.5",
