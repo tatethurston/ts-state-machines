@@ -109,6 +109,8 @@ stoplight.state; // 'red'
 
 🌓 Safe to run in the browser or on a server
 
+🦶 Small footprint [279 B minified and gzipped](https://bundlephobia.com/result?p=ts-state-machines)
+
 ## Contributing 👫
 
 PR's and issues welcomed! For more guidance check out [CONTRIBUTING.md](https://github.com/tatethurston/ts-state-machines/blob/master/CONTRIBUTING.md)
