@@ -3,7 +3,10 @@
   "description": "State machines with type safe transitions",
   "license": "MIT",
   "author": "Tate <tatethurston@gmail.com>",
-  "repository": "git@github.com:tatethurston/ts-state-machine.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatethurston/ts-state-machines"
+  },
   "version": "1.0.1",
   "main": "dist",
   "files": [

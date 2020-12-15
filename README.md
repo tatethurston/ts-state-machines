@@ -1,4 +1,6 @@
-<blockquote>TypeScript State Machines</blockquote>
+# TypeScript State Machines
+
+<blockquote>State machines with type safe transitions</blockquote>
 
 ## What is this? 🧐
 
@@ -107,7 +109,7 @@ stoplight.state; // 'red'
 
 🎁 Zero run time dependencies
 
-🌓 Safe to run in the browser or on a server
+🪐 Isomorphic / Universal -- safe to run in any JS context: the browser or on a server
 
 🦶 Small footprint [279 B minified and gzipped](https://bundlephobia.com/result?p=ts-state-machines)
 
