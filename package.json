@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/tatethurston/ts-state-machines"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "files": [
     "dist/index.d.ts"
