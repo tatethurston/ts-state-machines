@@ -8,10 +8,9 @@
     "url": "https://github.com/tatethurston/ts-state-machines"
   },
   "version": "1.0.2",
-  "main": "dist",
+  "main": "dist/index.js",
   "files": [
-    "dist/index.d.ts",
-    "dist/index.js"
+    "dist/index.d.ts"
   ],
   "scripts": {
     "build": "yarn clean && yarn tsc",
@@ -27,7 +26,7 @@
     "version": "yarn run build && git add -A package.json",
     "postversion": "git push && git push --tags"
   },
-  "types": "dist",
+  "types": "dist/index.d.ts",
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^13.13.5",
