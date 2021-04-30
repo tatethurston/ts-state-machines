@@ -2,6 +2,24 @@
 
 <blockquote>State machines with type safe transitions</blockquote>
 
+<br />
+
+<a href="https://www.npmjs.com/package/ts-state-machine">
+  <img src="https://img.shields.io/npm/v/ts-state-machine.svg">
+</a>
+<a href="https://github.com/tatethurston/ts-state-machine/blob/master/LICENSE">
+  <img src="https://img.shields.io/npm/l/ts-state-machine.svg">
+</a>
+<a href="https://bundlephobia.com/result?p=ts-state-machine">
+  <img src="https://img.shields.io/bundlephobia/minzip/ts-state-machine">
+</a>
+<a href="https://www.npmjs.com/package/ts-state-machine">
+  <img src="https://img.shields.io/npm/dy/ts-state-machine.svg">
+</a>
+<a href="https://github.com/tatethurston/ts-state-machine/actions/workflows/ci.yml">
+  <img src="https://github.com/tatethurston/ts-state-machine/actions/workflows/ci.yml/badge.svg">
+</a>
+
 ## What is this? 🧐
 
 A TypeScript library to create state machines with type safe transitions. The available state transitions for the current state will autocomplete and type check.
